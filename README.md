@@ -1,15 +1,14 @@
-# Gallery-of-instagram
-Gallery of instagram
+<h1>Gallery of instagram</h1>
 #Регестрируем нового клиента https://www.instagram.com/developer/clients/manage/<br />
 из важного Valid redirect URIs сайт на котором хотите выводить галерею<br />
 
-#Получаем токен
+<h1>Получаем токен</h1>
 https://api.instagram.com/oauth/authorize/?client_id=CLIENT-ID&redirect_uri=REDIRECT-URI&response_type=token<br />
 CLIENT-ID из Manage Client<br />
 REDIRECT-URI тот что указали при регистрации(Valid redirect URIs)<br />
 Нас перебросить на наш сайт где в адресной строке будет токен<br />
 
-#пример получения фотографиий из инстаграм
+<h1>пример получения фотографиий из инстаграм</h1>
 $token = '';<br />
 $user_id = 'self';<br />
 $instagram_cnct = curl_init(); // инициализация cURL подключения<br />
