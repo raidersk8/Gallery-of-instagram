@@ -4,7 +4,7 @@
 
 <h1>Получаем токен</h1>
 https://api.instagram.com/oauth/authorize/?client_id=CLIENT-ID&redirect_uri=REDIRECT-URI&response_type=token<br />
-CLIENT-ID из Manage Client<br />
+CLIENT-ID из Manage Client(https://www.instagram.com/developer/clients/manage/)<br />
 REDIRECT-URI тот что указали при регистрации(Valid redirect URIs)<br />
 Нас перебросить на наш сайт где в адресной строке будет токен<br />
 
